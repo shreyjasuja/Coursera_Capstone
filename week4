@@ -1,0 +1,25 @@
+Problem:
+
+Crime incident reports are provided by Boston Police Department (BPD) to document the initial details surrounding an incident to which BPD officers respond. This is a dataset containing records from the new crime incident report system, which includes a reduced set of fields focused on capturing the type of incident as well as when and where it occurred.
+
+Based on these reports, Boston City police wants to determine areas where they can establish their new stations.
+They want to cover the areas which have maximum crime rates  in order to reduce the crime in the city and so that the police  becomes more accessible to approach..
+
+
+
+
+
+
+
+
+Aproach:
+
+We need the following info-
+
+What types of crimes are most common?
+Where are different types of crimes most likely to occur?
+Does the frequency of crimes change over the day? Week? Year?
+
+I will be using Boston Crime Rate data set  to solve this problem https://www.kaggle.com/AnalyzeBoston/crimes-in-boston#crime.csv
+Along with this foursquare api will also be used to determine the most dense locations of crime and visualize it .
+Folium Maps along with foursquare api will be clubbed to visualize the areas so that the police can also understand it easily.
